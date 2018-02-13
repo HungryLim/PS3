@@ -1,4 +1,4 @@
-# Lim, problem set 3
+# Lim, problem set 4
 # sorting hat and door
 # Min hee, Thanks a lot for your comments. I am acutally not so sure what is going on 
 # in this assignment. I can do the homework, but I don't really understand how this works.
@@ -32,12 +32,12 @@ sortinghat <- function (x, ...) {  #generic function
 sortinghat.student<-function(x){ #function for sorting
   stat<-student(x)
   stat<-as.numeric(c(stat$courage,stat$ambition,stat$intelligence,stat$effort))
-  g<-c(1,2,3,4)
+  g<-c(1,2,3,4)     #arbitrary matrix with numbers.
   s<-c(2,3,4,1)
   r<-c(3,4,2,1)
   h<-c(4,2,3,1)
   mat<-rbind(g,s,r,h)
-  result<-t(mat)%*%(stat)
+  result<-t(mat)%*%(stat) #multiply the matrix and student's stats
   if(result[1]==max(result)){
     return("GRYFFINDOR!")
   }
