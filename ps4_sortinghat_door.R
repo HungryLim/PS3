@@ -1,8 +1,13 @@
-#Lim, problem set 3
-#sorting hat and door
+# Lim, problem set 3
+# sorting hat and door
+# Min hee, Thanks a lot for your comments. I am acutally not so sure what is going on 
+# in this assignment. I can do the homework, but I don't really understand how this works.
+# If you could give me some comments, I really appreciate it.
+# Thanks again!
 ################################################################
-#sortinghat
-#s3
+################################################################
+# sortinghat
+# s3
 
 #1
 student<-function(name){
